@@ -77,8 +77,8 @@ class Entity(object):
     They occur in cases where there are legitimately multiple valid values of a
     single attribute. Some examples:
 
-    Resource/handle can have multiple values, because a single file/socket can
-    be opened by multiple handles owned by multiple processes.
+    Resource/handle can have multiple values, because a single file or socket
+    can be opened by multiple handles owned by multiple processes.
 
     MemoryObject/type can be a superposition in case of unions, or things that
     are stored as a void pointer and cast depending on contextual state.
